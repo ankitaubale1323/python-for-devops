@@ -1,0 +1,26 @@
+*What You Learned Today*
+
+-How to use argparse
+
+-How real CLI tools accept arguments
+
+-How to validate required parameters
+
+-How to reuse OOP code in a scalable way
+
+-How DevOps tools like kubectl and terraform are structured
+
+-This is exactly how professional CLI tools are built.
+*
+*Important DevOps Lesson*
+
+When a tool shows:
+
+error: the following arguments are required: --file
+
+That’s NOT failure.
+
+That’s validation.
+
+Real CLI tools fail fast with clear error messages.
+

@@ -1,0 +1,58 @@
+
+
+#  What Improved Here?
+
+###  1. Proper Constants
+
+```python
+API_URL = ...
+OUTPUT_FILE = ...
+```
+
+No hardcoded values inside functions.
+
+---
+
+###  2. try/except for API Failure
+
+Handles:
+
+* No internet
+* DNS failure
+* Timeout
+* 404/500 errors
+
+---
+
+###  3. Safe Dictionary Access
+
+```python
+post.get("id")
+```
+
+Prevents `KeyError`.
+
+---
+
+###  4. File Error Handling
+
+Prevents crash if:
+
+* No permission
+* Disk full
+* Path invalid
+
+---
+
+###  5. Cleaner Structure
+
+Each function:
+
+* Does ONE job
+* Has docstring
+* Has clear variable names
+
+
+
+
+

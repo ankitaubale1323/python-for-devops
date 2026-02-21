@@ -1,0 +1,30 @@
+**What Changed (And Why It Matters)**
+**Before (Day 04)**
+
+Functions floating independently
+
+Data passed around manually
+
+# **Now (Day 05)**
+
+Log file + counters stored inside object
+
+Behavior grouped with state
+
+Cleaner structure
+
+Easier to extend later
+
+Now imagine tomorrow you want to:
+
+Add threshold alerts
+
+Add JSON output
+
+Add email notifications
+
+Add CLI arguments
+
+With OOP → easy.
+
+Without structure → messy.
